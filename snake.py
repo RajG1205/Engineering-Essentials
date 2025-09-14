@@ -12,7 +12,7 @@ SNAKE_COLOR = (17, 168, 79)
 FOOD_COLOR = (219, 50, 54)
 BG_COLOR = (30, 30, 30)
 GRID_COLOR = (50, 50, 50)
-TEXT_COLOR = (240, 240, 240)
+TEXT_COLOR = (240, 240, 300)
 
 # Directions
 UP, DOWN, LEFT, RIGHT = (0, -1), (0, 1), (-1, 0), (1, 0)
@@ -189,4 +189,5 @@ def main():
 
 # --- Run the Game ---
 if __name__ == "__main__":
+
     main()
